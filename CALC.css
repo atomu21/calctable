@@ -15,7 +15,7 @@ table {
   
 }
 
-#output_total {
+#outputTotal {
   width: 250px;
   border: solid 1px;
   border-radius: 10px;
@@ -26,7 +26,7 @@ table {
   text-align: right;
 }
 
-.num_btn {
+.numBtn, .oneNine, .operator, #zero, #wZero #point {
   width: 60px;
   height: 50px;
   margin: 1px auto;
@@ -35,43 +35,7 @@ table {
   border-radius: 20px;
 }
 
-#zero {
-  width: 60px;
-  height: 50px;
-  margin: 1px auto;
-  font-weight: bold;
-  font-size: 25px;
-  border-radius: 20px;
-}
-
-#w_zero {
-  width: 60px;
-  height: 50px;
-  margin: 1px auto;
-  font-weight: bold;
-  font-size: 25px;
-  border-radius: 20px;
-}
-
-#point {
-  width: 60px;
-  height: 50px;
-  margin: 1px auto;
-  font-weight: bold;
-  font-size: 25px;
-  border-radius: 20px;
-}
-
-#clear {
-  width: 120px;
-  height: 50px;
-  margin: 1px auto;
-  font-weight: bold;
-  font-size: 25px;
-  border-radius: 20px;
-}
-
-#equal_btn {
+#clear, #equalBtn {
   width: 120px;
   height: 50px;
   margin: 1px auto;
