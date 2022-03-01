@@ -1,44 +1,81 @@
 body, div, p, ul, ol, li, dl, dt, dd, table, th, td, img, figure, h1, h2, h3, h4, h5, h6, form, select {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 table {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    border: solid 1px;
-    border-radius: 20px;
-    padding: 25px;
-    background-color: paleturquoise;
-    
+  width: 300px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px;
+  border-radius: 20px;
+  padding: 25px;
+  background-color: paleturquoise;
+  
 }
 
-#display {
-    width: 250px;
-    border: solid 1px;
-    border-radius: 10px;
-    margin-bottom: 10px;
-    line-height: 65px; 
-    background-color: blanchedalmond;
-    font-size: 50px;
-    text-align: right;
+#output_total {
+  width: 250px;
+  border: solid 1px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  line-height: 65px; 
+  background-color: blanchedalmond;
+  font-size: 40px;
+  text-align: right;
 }
 
-.btn {
-    width: 60px;
-    height: 50px;
-    margin: 1px auto;
-    font-weight: bold;
-    font-size: 25px; 
-    border-radius: 20px;   
+.num_btn {
+  width: 60px;
+  height: 50px;
+  margin: 1px auto;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 20px;
 }
 
-.btn_2 {
-    width: 120px;
-    height: 50px;
-    margin: 1px auto;
-    font-weight: bold;
-    font-size: 25px;
-    border-radius: 20px;
+#zero {
+  width: 60px;
+  height: 50px;
+  margin: 1px auto;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+#w_zero {
+  width: 60px;
+  height: 50px;
+  margin: 1px auto;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+#point {
+  width: 60px;
+  height: 50px;
+  margin: 1px auto;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+#clear {
+  width: 120px;
+  height: 50px;
+  margin: 1px auto;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 20px;
+}
+
+#equal_btn {
+  width: 120px;
+  height: 50px;
+  margin: 1px auto;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 20px;
 }
